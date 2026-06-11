@@ -1,0 +1,1 @@
+   async def check_rate_limit(self, key: str, limit: int, window: int) -

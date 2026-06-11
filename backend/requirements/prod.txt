@@ -1,0 +1,18 @@
+-r base.txt
+-r ml.txt
+
+# Production server
+gunicorn==23.0.0
+uvicorn[standard]==0.30.0
+uvloop==0.20.0
+httptools==0.6.1
+
+# Monitoring
+prometheus-client==0.20.0
+opentelemetry-api==1.27.0
+opentelemetry-sdk==1.27.0
+opentelemetry-instrumentation-fastapi==0.48b0
+
+# Production optimizations
+orjson==3.10.7
+ujson==5.10.0

@@ -1,0 +1,19 @@
+# Core Web Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# NLP & Sentiment Analysis
+textblob==0.17.1
+
+# Data Processing
+pydantic==2.5.0
+pydantic-settings==2.1.0
+python-dotenv==1.0.0
+
+# File Upload Support (already included in python-multipart)
+# Additional utilities
+typing-extensions==4.8.0
+
+# Optional: For better CSV/JSON handling (already in Python standard library)
+# No additional packages needed for csv/json - they're built-in
